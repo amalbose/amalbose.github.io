@@ -1031,3 +1031,13 @@ textarea.error::-webkit-input-placeholder {
 
 }
 
+.email-contact {
+    background: url(../images/email.png);
+    width: 185px;
+    height: 23px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 30px;
+}
