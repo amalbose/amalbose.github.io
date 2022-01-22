@@ -1,664 +1,1146 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
+
 <head>
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Amal Bose | Personal Resume</title>
-	<meta name="description" content="Personal Resume of Amal Bose.">
-	<meta name="keywords" content="amalbose, Amal Bose, axatrikx, resume, Senior Applications Engineer" />
-	<meta name="author" content="Amal Bose">
+	<!--
+		Basic
+	-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Amal Bose - Resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="vCard & Resume Template" />
+	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
+	<meta name="author" content="amalbose" />
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--
+		Load Fonts
+	-->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+		rel="stylesheet">
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+	<!--
+		Load CSS
+	-->
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/blogs.css" />
+	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
+	<!--
+		Background Gradient
+	-->
+	<link rel="stylesheet" href="css/gradient.css" />
 
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.ico" >
+	<!--
+		Template New-Skin
+	-->
+	<link rel="stylesheet" href="css/new-skin/new-skin.css" />
+
+	<!--
+		Template RTL
+	-->
+	<!--<link rel="stylesheet" href="css/rtl.css" />-->
+
+	<!--
+		Template Colors
+	-->
+	<link rel="stylesheet" href="css/template-colors/custom.css" />
+	<!-- <link rel="stylesheet" href="css/template-colors/green.css" /> -->
+	<!--<link rel="stylesheet" href="css/template-colors/orange.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/pink.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/purple.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/red.css" />-->
+
+	<!--
+		Template Dark
+	-->
+	<!--<link rel="stylesheet" href="css/template-dark/dark.css" />-->
+
+
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!--
+		Favicons
+	-->
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
 
 </head>
 
 <body>
+	<div class="page new-skin">
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
+		<!-- preloader -->
+		<div class="preloader">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="double-bounce1"></div>
+						<div class="double-bounce2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-      <nav id="nav-wrap">
+		<!-- background -->
+		<div class="background gradient">
+			<ul class="bg-bubbles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+		<!--
+			Container
+		-->
+		<div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
 
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
+			<!--
+				Header
+			-->
+			<header class="header">
 
-      </nav> <!-- end #nav-wrap -->
+				<!-- header profile -->
+				<div class="profile">
+					<div class="title">Amal Bose</div>
+					<div class="subtitle subtitle-typed">
+						<div class="typing-title">
+							<p>Java Developer</p>
+							<p>Web Developer</p>
+							<p>Artist</p>
+						</div>
+					</div>
+				</div>
 
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">I'm Amal Bose.</h1>
-            <h3>A Trivandrum based <span>developer</span> with a passion for <span>art</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            <hr />
-            <ul class="social">
-               <li><a href="https://www.facebook.com/amalbose"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="http://twitter.com/amalbose"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://in.linkedin.com/in/amalbose"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/amalbose/"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-         </div>
-      </div>
+				<!-- menu btn -->
+				<!--<a href="#" class="menu-btn"><span></span></a>-->
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/amalbose.png" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2>About Me</h2>
-
-            <p>I am a Java/Android developer and artist currently working as Senior Applications Engineer for Oracle. Apart from that I love movies and fishkeeping.
-            </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-                     <span>Amal Bose</span><br>
-                     <span>(91) 8129797204</span><br>
-                     <span>amalbose@gmail.com</span>
-                  </p>
-
-               </div>
-
-               <div class="columns download">
-                  <p>
-                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
-      </div>
-
-   </section> <!-- About Section End-->
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Oracle</h3>
-                  <p class="info">Senior Application Engineer<span>&bull;</span> <em class="date">Jun 2018 - Present</em></p>
-                  <p>
-                        <ul>
-                           <li>• Development of Collaboration module in Java</li>
-                           <li>• Backend development in C++</li>
-                        </ul>
-                  </p>
-
-                  <p class="info">Senior Quality Assurance Engineer<span>&bull;</span> <em class="date">Apr 2013 - Jun 2018</em></p>
-                  <p>
-                     <ul>
-                        <li>• Developed frameworks in Java for both UI and Web Service automation</li>
-                        <li>• Developed tools, scripts and utilities to manage test execition and management</li>
-                     </ul>
-                    
-                  </p>
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Cognizant Technology Solutions</h3>
-                  <p class="info">Programmer Analyst <span>&bull;</span> <em class="date">Aug 2010 - Mar 2013</em></p>
-
-                  <p>
-                  <ul>
-                        <li>• Involved in framework development and managing execution</li>
-                     </ul>
-                  </p>
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-
-				<div class="bars">
-
-				   <ul class="skills">
-					   <li><span class="bar-expand java"></span><em>Java</em></li>
-                  <li><span class="bar-expand android"></span><em>Android</em></li>
-						<li><span class="bar-expand cpp"></span><em>C++</em></li>
-						<li><span class="bar-expand javascr"></span><em>javascript</em></li>
-						<li><span class="bar-expand html5"></span><em>PHP</em></li>
-                  <li><span class="bar-expand jquery"></span><em>React Native</em></li>
+				<!-- menu -->
+				<div class="top-menu">
+					<ul>
+						<li class="active">
+							<a href="#about-card">
+								<span class="icon ion-person"></span>
+								<span class="link">Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="#resume-card">
+								<span class="icon ion-android-list"></span>
+								<span class="link">Resume</span>
+							</a>
+						</li>
+						<li>
+							<a href="#works-card">
+								<span class="icon ion-paintbrush"></span>
+								<span class="link">Works</span>
+							</a>
+						</li>
+						<!-- <li>
+							<a href="#blog-card">
+								<span class="icon ion-chatbox-working"></span>
+								<span class="link">Blog</span>
+							</a>
+						</li> -->
+						<li>
+							<a href="#contacts-card">
+								<span class="icon ion-at"></span>
+								<span class="link">Contact</span>
+							</a>
+						</li>
 					</ul>
+				</div>
+
+			</header>
+
+			<!--
+				Card - Started
+			-->
+			<div class="card-started" id="home-card">
+
+				<!--
+					Profile
+				-->
+				<div class="profile no-photo">
+
+					<!-- profile image -->
+					<div class="slide" style="background-image: url(images/Photo.JPG);"></div>
+
+					<!-- profile titles -->
+					<div class="title">Amal Bose</div>
+					<!--<div class="subtitle">Web Designer</div>-->
+					<div class="subtitle subtitle-typed">
+						<div class="typing-title">
+							<p>Java Developer</p>
+							<p>Web Developer</p>
+							<p>Artist</p>
+						</div>
+					</div>
+
+					<!-- profile socials -->
+					<div class="social">
+						<a target="_blank" href="https://twitter.com/amalbose"><span class="fa fa-twitter"></span></a>
+						<a target="_blank" href="https://github.com/amalbose"><span class="fa fa-github"></span></a>
+						<a target="_blank" href="https://in.linkedin.com/in/amalbose"><span
+								class="fa fa-linkedin"></span></a>
+						<a target="_blank" href="https://www.instagram.com/amalbose/"><span
+								class="fa fa-instagram"></span></a>
+
+					</div>
+
+					<!-- profile buttons -->
+					<div class="lnks">
+						<a target="_blank" href="assets/Resume.pdf" class="lnk">
+							<span class="text">Download CV</span>
+							<span class="ion ion-archive"></span>
+						</a>
+						<a href="#" class="lnk discover">
+							<span class="text">Contact Me</span>
+							<span class="arrow"></span>
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- 
+				Card - About
+			-->
+			<div class="card-inner animated active" id="about-card">
+				<div class="card-wrap">
+
+					<!-- 
+						About 
+					-->
+					<div class="content about">
+
+						<!-- title -->
+						<div class="title">About Me</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="text-box">
+									<p>
+										Hey, I am <b>Amal Bose</b>. <br />A passionate fullstack developer with rich
+										experience in
+										<b>Java, microservices</b>, framework/library development and
+										strong working
+										knowledge in CI/CD process.
+									</p>
+								</div>
+							</div>
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="info-list">
+									<ul>
+										<li><strong>Github </strong> <a href="https://github.com/amalbose"
+												target="_blank">@amalbose</a></li>
+										<li><strong>Address</strong> Trivandrum, India</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Services
+					-->
+					<div class="content services">
+
+						<!-- title -->
+						<div class="title">My Services</div>
+
+						<!-- content -->
+						<div class="row service-items border-line-v">
+							<!-- service item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+								<div class="service-item">
+									<div class="icon">
+										<span class="fa fa-code"></span>
+									</div>
+									<div class="name">
+										<span>Application Development</span>
+									</div>
+									<div class="desc">
+										<div>
+											<p>Develop modern easy to maintain web applications and microservices</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- service item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+								<div class="service-item">
+									<div class="icon">
+										<span class="fa fa-paint-brush"></span>
+									</div>
+									<div class="name">
+										<span>
+											Arts </span>
+									</div>
+									<div class="desc">
+										<div>
+											<p>Oil and acrylic paintings and pencil art.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="clear"></div>
+
+					</div>
+
+					<!--
+						Fun Fact
+					-->
+					<!-- <div class="content fuct">
+
+						<div class="title">Fun Fact</div>
+
+						<div class="row fuct-items">
+
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="fa fa-music"></span></div>
+									<div class="name">80 Albumes Listened</div>
+								</div>
+							</div>
+
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="fa fa-trophy"></span></div>
+									<div class="name">15 Awards Won</div>
+								</div>
+							</div>
+
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="fa fa-coffee"></span></div>
+									<div class="name">1 000 Cups of coffee</div>
+								</div>
+							</div>
+
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="fa fa-flag"></span></div>
+									<div class="name">10 Countries Visited</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div> -->
+
+
+
+
+				</div>
+			</div>
+
+			<!--
+				Card - Resume
+			-->
+			<div class="card-inner" id="resume-card">
+				<div class="card-wrap">
+
+					<!--
+						Resume
+					-->
+					<div class="content resume">
+
+						<!-- title -->
+						<div class="title">Resume</div>
+
+						<!-- content -->
+						<div class="row">
+
+							<!-- experience -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="fa fa-briefcase"></i></div>
+									<div class="name">Experience</div>
+								</div>
+								<div class="resume-items">
+									<div class="resume-item border-line-h active">
+										<div class="date">Dec 2020 - Present</div>
+										<div class="name">Senior Lead Developer</div>
+										<div class="company">Envestnet</div>
+										<p>
+											Leading the design and development of a java library and 4 springboot
+											microservices.
+										</p>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">2017 - 2020</div>
+										<div class="name">Project Lead (Development)</div>
+										<div class="company">Oracle</div>
+										<p>
+											Scrum master and lead developer for collaboration team handling 2 java
+											applications and 3 microservices
+										</p>
+									</div>
+									<div class="resume-item">
+										<div class="date">2013 - 2017</div>
+										<div class="name">Senior Quality Assurance Engineer (Automation)</div>
+										<div class="company">Oracle</div>
+										<p>
+											Design and development of test automation frameworks and tools.
+										</p>
+									</div>
+									<div class="resume-item">
+										<div class="date">2010 - 2013</div>
+										<div class="name">Programmer Analyst</div>
+										<div class="company">Cognizant</div>
+										<p>
+											Development of automation frameworks with involvement in functional and
+											automation testing.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- education -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="fa fa-university"></i></div>
+									<div class="name">Education</div>
+								</div>
+								<div class="resume-items">
+									<div class="resume-item border-line-h">
+										<div class="date">2006 - 2010</div>
+										<div class="name">College of Engineering</div>
+										<div class="company">Trivandrum</div>
+										<p>
+											Bachelor's Degree in Electrical & Electronics Engineering
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Skills
+					-->
+					<div class="content skills">
+
+						<!-- title -->
+						<div class="title">My Skills</div>
+
+						<!-- content -->
+						<div class="row">
+
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list circles">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="fa fa-code"></i></div>
+										<div class="name">Coding</div>
+									</div>
+									<ul>
+										<li>
+											<div class="name">Core Java</div>
+											<div class="progress p95">
+												<span>95%</span>
+											</div>
+										</li>
+										<li>
+											<div class="name">JavaScript</div>
+											<div class="progress p85">
+												<span>85%</span>
+											</div>
+										</li>
+										<li>
+											<div class="name">PHP</div>
+											<div class="progress p70">
+												<span>70%</span>
+											</div>
+										</li>
+										<li>
+											<div class="name">HTML / CSS</div>
+											<div class="progress p95">
+												<span>95%</span>
+											</div>
+										</li>
+										<li>
+											<div class="name">Python</div>
+											<div class="progress p50">
+												<span>50%</span>
+											</div>
+										</li>
+										<li>
+											<div class="name">C++</div>
+											<div class="progress p50">
+												<span>50%</span>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list list">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="fa fa-list"></i></div>
+										<div class="name">Other Skills</div>
+									</div>
+									<ul>
+										<li>
+											<div class="name">Spring Boot</div>
+										</li>
+										<li>
+											<div class="name">Docker, Kubernetes, Spinnaker, Velocity, Gitlab CI</div>
+										</li>
+										<li>
+											<div class="name">MySQL, Oracle, Kafka, Redis</div>
+										</li>
+										<li>
+											<div class="name">JPA, JDBC</div>
+										</li>
+										<li>
+											<div class="name">Prometheus, Grafana, Hashicorp Vault, Swagger</div>
+										</li>
+										<li>
+											<div class="name">React Native, Oracle JET</div>
+										</li>
+										<li>
+											<div class="name">Junit, TestNG, Maven, Gradle, Jmeter</div>
+										</li>
+										<li>
+											<div class="name">OCI and AWS (basic)</div>
+										</li>
+										<li>
+											<div class="name">Agile Scrum</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!--
+				Card - Works
+			-->
+			<div class="card-inner" id="works-card">
+				<div class="card-wrap">
+
+					<!--
+						Works
+					-->
+					<div class="content works">
+
+						<!-- title -->
+						<div class="title">Recent Works</div>
+
+						<!-- filters -->
+						<div class="filter-menu filter-button-group">
+							<div class="f_btn active">
+								<label><input type="radio" name="fl_radio" value="grid-item" />All</label>
+							</div>
+							<div class="f_btn">
+								<label><input type="radio" name="fl_radio" value="photo" />Programming</label>
+							</div>
+							<div class="f_btn">
+								<label><input type="radio" name="fl_radio" value="gallery" />Art</label>
+							</div>
+						</div>
+
+						<!-- content -->
+						<div class="row grid-items border-line-v">
+
+							<!-- work item photo -->
+
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-1" class="has-popup-media">
+											<img src="assets/works/bmicalculator.png" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-1" class="name has-popup-media">BMI Calculator</a>
+										<div class="category">Programming</div>
+									</div>
+									<div id="popup-1" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="assets/works/bmicalculator.png" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>BMI Calculator</h1>
+													<div class="blog-detail">Android</div>
+													<div class="blog-content">
+														<p>
+															Track you health with BMI Calculator which supports both
+															metric and imperial units..
+														</p>
+													</div>
+													<a target="_blank" href="https://github.com/amalbose/BMICalculator"
+														class="button">
+														<span class="text">View Project</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-2" class="has-popup-media">
+											<img src="assets/works/toddlertalk.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-2" class="name has-popup-media">Toddler Talk - Kids Learning
+											App</a>
+										<div class="category">Programming</div>
+									</div>
+									<div id="popup-2" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="assets/works/toddlertalk.jpg" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>Toddler Talk - Kids Learning App</h1>
+													<div class="blog-detail">Android</div>
+													<div class="blog-content">
+														<p>
+															With over 8 categories, Toddler Talk is designed to help
+															your toddler learn the words of common alphabets, numbers,
+															shapes, animals etc.
+														</p>
+													</div>
+													<a target="_blank"
+														href="https://github.com/amalbose/kids-learning-app"
+														class="button">
+														<span class="text">View Project</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-3" class="has-popup-media">
+											<img src="assets/works/axatools.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-3" class="name has-popup-media">AxaTools</a>
+										<div class="category">Programming</div>
+									</div>
+									<div id="popup-3" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="assets/works/axatools.jpg" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>AxaTools</h1>
+													<div class="blog-detail">Chrome Extension</div>
+													<div class="blog-content">
+														<p>
+															A helper program incorporating several basic
+															utilities/tools.A helper program incorporating several basic
+															utilities/tools.
+															Tools included: Unit Converter, Character Counter, BMI
+															Calculator, Base 64 Encode/Decoder, XML-JSON Converter,
+															Regex Tester, MD2 & MD5 Hash, QR Code Generator
+														</p>
+													</div>
+													<a target="_blank" href="http://github.com/amalbose/AxaTools"
+														class="button">
+														<span class="text">View Project</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-4" class="has-popup-media">
+											<img src="assets/works/xkcdenhancer.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-4" class="name has-popup-media">XKCD Enhancer</a>
+										<div class="category">Programming</div>
+									</div>
+									<div id="popup-4" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="assets/works/xkcdenhancer.jpg" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>XKCD Enhancer</h1>
+													<div class="blog-detail">Chrome Extension</div>
+													<div class="blog-content">
+														<p>
+															Enhances xkcd website experience with direct access to
+															Explain XKCD and alt text.
+														</p>
+													</div>
+													<a target="_blank" href="http://github.com/amalbose/xkcd-enhancer"
+														class="button">
+														<span class="text">View Project</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#gallery-1" class="has-popup-gallery">
+											<img src="assets/works/sunset.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+										<div id="gallery-1" class="mfp-hide">
+											<a href="assets/works/sunset.jpg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="assets/works/sunset.jpg" class="name has-popup-image">Sunset</a>
+										<div class="category">Art</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#gallery-2" class="has-popup-gallery">
+											<img src="assets/works/mountainside.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+										<div id="gallery-2" class="mfp-hide">
+											<a href="assets/works/mountainside.jpg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="assets/works/mountainside.jpg" class="name has-popup-image">Mountain
+											side</a>
+										<div class="category">Art</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#gallery-3" class="has-popup-gallery">
+											<img src="assets/works/buddha.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+										<div id="gallery-3" class="mfp-hide">
+											<a href="assets/works/buddha.jpg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="assets/works/buddha.jpg" class="name has-popup-image">Buddha</a>
+										<div class="category">Art</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#gallery-4" class="has-popup-gallery">
+											<img src="assets/works/oldcouple.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+										<div id="gallery-4" class="mfp-hide">
+											<a href="assets/works/oldcouple.jpg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="assets/works/buddha.jpg" class="name has-popup-image">Old Couple</a>
+										<div class="category">Art</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#gallery-5" class="has-popup-gallery">
+											<img src="assets/works/Baby_Girl.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+										<div id="gallery-5" class="mfp-hide">
+											<a href="assets/works/Baby_Girl.jpg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="assets/works/buddha.jpg" class="name has-popup-image">Baby Girl</a>
+										<div class="category">Art</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#gallery-6" class="has-popup-gallery">
+											<img src="assets/works/Hope.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+										<div id="gallery-6" class="mfp-hide">
+											<a href="assets/works/Hope.jpg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="assets/works/buddha.jpg" class="name has-popup-image">Hope</a>
+										<div class="category">Art</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#gallery-7" class="has-popup-gallery">
+											<img src="assets/works/sad_lady.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+										<div id="gallery-7" class="mfp-hide">
+											<a href="assets/works/sad_lady.jpg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="assets/works/buddha.jpg" class="name has-popup-image">Sad Lady</a>
+										<div class="category">Art</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item photo -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#gallery-8" class="has-popup-gallery">
+											<img src="assets/works/coffeetime.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+										<div id="gallery-8" class="mfp-hide">
+											<a href="assets/works/coffeetime.jpg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="assets/works/buddha.jpg" class="name has-popup-image">Coffee time</a>
+										<div class="category">Art</div>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+			<!--
+				Card - Contacts
+			-->
+			<div class="card-inner contacts" id="contacts-card">
+				<div class="card-wrap">
+
+					<!--
+						Conacts Info
+					-->
+					<div class="content contacts">
+
+						<!-- title -->
+						<div class="title">Get in Touch</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="map" id="map">
+									<iframe width="100%" height="100%" id="gmap_canvas"
+										src="https://maps.google.com/maps?q=trivandrum&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+										frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+								</div>
+								<div class="info-list">
+									<ul>
+										<li><strong>Location</strong> Trivandrum, India</li>
+										<li><strong>Email </strong> amalbose@gmail.com</li>
+										<li><strong>Phone . . . . .</strong> +91 8129797204</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Contact Form
+					-->
+					<!-- <div class="content contacts">
+
+						<div class="title">Contact Form</div>
+
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="contact_form">
+									<form id="cform" method="post" target="hiddenFrame"
+										action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdvWplJ1fWDkkZD8H6o_WjwQiNLlyejF8I1zMbPnh-jakeb2Q/formResponse">
+										<div class="row">
+											<div class="col col-d-6 col-t-6 col-m-12">
+												<div class="group-val">
+													<input type="text" name="entry.1946237573"
+														placeholder="Full Name" />
+												</div>
+											</div>
+											<div class="col col-d-6 col-t-6 col-m-12">
+												<div class="group-val">
+													<input type="text" name="entry.242519195"
+														placeholder="Email Address" />
+												</div>
+											</div>
+											<div class="col col-d-12 col-t-12 col-m-12">
+												<div class="group-val">
+													<textarea name="entry.1748333734"
+														placeholder="Your Message"></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="align-left">
+											<button type="button" class="button" id="submit-button">
+												<span class="text">Send Message</span>
+												<span class="arrow"></span>
+											</button>
+										</div>
+									</form>
+									<div class="alert-success">
+										<p>Thanks, your message is sent successfully.</p>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div> -->
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="s_overlay"></div>
+		<!-- <div class="content-sidebar">
+			<div class="sidebar-wrap search-form">
+				<aside id="secondary" class="widget-area">
+					<section id="search-2" class="widget widget_search">
+						<label>
+							<span class="screen-reader-text">Search for:</span>
+							<input type="search" class="search-field" placeholder="Search …" value="" name="s">
+						</label>
+						<input type="submit" class="search-submit" value="Search">
+					</section>
+					<section class="widget widget_recent_entries">
+						<h2 class="widget-title">
+							<span class="widget-title-span"><span class="first-word">Recent</span> Posts</span>
+						</h2>
+						<ul>
+							<li>
+								<a href="#">Creativity Is More Than</a>
+							</li>
+							<li>
+								<a href="#">Designing the perfect</a>
+							</li>
+							<li>
+								<a href="#">Music Player Design</a>
+							</li>
+							<li>
+								<a href="#">A Song And Dance Act</a>
+							</li>
+							<li>
+								<a href="#">By spite about do of allow</a>
+							</li>
+						</ul>
+					</section>
+					<section class="widget widget_recent_comments">
+						<h2 class="widget-title">
+							<span class="widget-title-span"><span class="first-word">Recent</span>
+								Comments</span>
+						</h2>
+						<ul>
+							<li class="recentcomments">
+								<span class="comment-author-link">JOHN SMITH</span> on <a href="#">Creativity Is
+									More
+									Than</a>
+							</li>
+							<li class="recentcomments">
+								<span class="comment-author-link">ADAM SMITH</span> on <a href="#">Creativity Is
+									More
+									Than</a>
+							</li>
+							<li class="recentcomments">
+								<span class="comment-author-link">admin</span> on <a href="#">Designing the
+									perfect</a>
+							</li>
+							<li class="recentcomments">
+								<span class="comment-author-link">admin</span> on <a href=#">Designing the
+									perfect</a>
+							</li>
+							<li class="recentcomments">
+								<span class="comment-author-link">James</span> on <a href="#">Designing the
+									perfect</a>
+							</li>
+						</ul>
+					</section>
+					<section class="widget widget_archive">
+						<h2 class="widget-title">
+							<span class="widget-title-span">
+								<span class="first-letter">Archives</span>
+							</span>
+						</h2>
+						<ul>
+							<li>
+								<a href="#">November 2018</a>
+							</li>
+						</ul>
+					</section>
+					<section class="widget widget_categories">
+						<h2 class="widget-title">
+							<span class="widget-title-span"><span class="first-letter">Categories</span></span>
+						</h2>
+						<ul>
+							<li class="cat-item cat-item-2">
+								<a href="#">Design</a>
+							</li>
+							<li class="cat-item cat-item-3">
+								<a href="#">Music</a>
+							</li>
+						</ul>
+					</section>
+					<section class="widget widget_meta">
+						<h2 class="widget-title">
+							<span class="widget-title-span"><span class="first-letter">Meta</span></span>
+						</h2>
+						<ul>
+							<li><a href="#">Log in</a></li>
+							<li><a href="#">Entries feed</a></li>
+							<li><a href="#">Comments feed</a></li>
+							<li><a href="#">WordPress.org</a></li>
+						</ul>
+					</section>
+				</aside>
+			</div>
+			<span class="close"></span>
+		</div> -->
+
+	</div>
+
+	<!--
+		jQuery Scripts
+	-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/jquery.slimscroll.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="https://use.fontawesome.com/8da76d029b.js"></script>
+
+	<!--
+		Google map api
+	-->
+	<!-- <script src="https://maps.google.com/maps?q=trivandrum&t=&z=11&ie=UTF8&iwloc=&output=embed"></script> -->
+
+	<!--
+		Main Scripts
+	-->
+	<script src="js/scripts.js"></script>
 
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-            <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Kerala University</h3>
-                  <p class="info">Bachelors degree in Electrical & Electronics Engineering<span>&bull;</span> <em class="date">2006 - 2010</em></p>
-
-                  <p>
-                  Completed Bachelors degree in Electrical & Electronics Engineering from <strong>College of Engineering, Trivandrum</strong>.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out Some of My Published Works.</h1>
-
-            <h3>Programming:</h3>
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-               <div class="columns portfolio-item">
-                     <div class="item-wrap">
-   
-                        <a href="#modal-04" title="">
-                           <img alt="" src="images/portfolio/bmicalculator.png">
-                           <div class="overlay">
-                              <div class="portfolio-item-meta">
-                                    <h5>BMI Calculator</h5>
-                                 <p>Android Application</p>
-                                 </div>
-                           </div>
-                           <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-   
-                     </div>
-               </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                     <div class="item-wrap">
-   
-                        <a href="#modal-03" title="">
-                           <img alt="" src="images/portfolio/toddlertalk.png">
-                           <div class="overlay">
-                              <div class="portfolio-item-meta">
-                                    <h5>Toddler Talk - Kids Learning App</h5>
-                                 <p>Android Application</p>
-                                 </div>
-                           </div>
-                           <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-   
-                     </div>
-               </div> <!-- item end -->
-                     
-          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/axatools.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>AxaTools</h5>
-                              <p>chrome-extension</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/xkcdenhancer.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>XKCD Enhancer</h5>
-                              <p>chrome-extension</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-
-            <h3>Art:</h3>
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-                  <div class="columns portfolio-item">
-                        <div class="item-wrap">
-      
-                           <a href="#modal-a-05" title="">
-                              <img alt="" src="images/portfolio/sunset.jpg">
-                              <div class="overlay">
-                                 <div class="portfolio-item-meta">
-                                       <h5>Sunset</h5>
-                                    <p>Oil on Canvas</p>
-                                    </div>
-                              </div>
-                              <div class="link-icon"><i class="icon-plus"></i></div>
-                           </a>
-      
-                        </div>
-                  </div> <!-- item end -->
-
-                  <div class="columns portfolio-item">
-                        <div class="item-wrap">
-      
-                           <a href="#modal-a-06" title="">
-                              <img alt="" src="images/portfolio/mountainside.jpg">
-                              <div class="overlay">
-                                 <div class="portfolio-item-meta">
-                                       <h5>MountainSide</h5>
-                                    <p>Acrylic on Canvas</p>
-                                    </div>
-                              </div>
-                              <div class="link-icon"><i class="icon-plus"></i></div>
-                           </a>
-      
-                        </div>
-                  </div> <!-- item end -->
-
-                  <div class="columns portfolio-item">
-                        <div class="item-wrap">
-      
-                           <a href="#modal-a-07" title="">
-                              <img alt="" src="images/portfolio/buddha.jpg">
-                              <div class="overlay">
-                                 <div class="portfolio-item-meta">
-                                       <h5>Buddha</h5>
-                                    <p>Acrylic on Canvas</p>
-                                    </div>
-                              </div>
-                              <div class="link-icon"><i class="icon-plus"></i></div>
-                           </a>
-      
-                        </div>
-                  </div> <!-- item end -->
-
-                  <div class="columns portfolio-item">
-                        <div class="item-wrap">
-      
-                           <a href="#modal-a-08" title="">
-                              <img alt="" src="images/portfolio/oldcouple.jpg">
-                              <div class="overlay">
-                                 <div class="portfolio-item-meta">
-                                       <h5>Old Couple</h5>
-                                    <p>Acrylic on Canvas</p>
-                                    </div>
-                              </div>
-                              <div class="link-icon"><i class="icon-plus"></i></div>
-                           </a>
-      
-                        </div>
-                  </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                     <div class="item-wrap">
-   
-                        <a href="#modal-a-01" title="">
-                           <img alt="" src="images/portfolio/Baby_Girl.jpg">
-                           <div class="overlay">
-                              <div class="portfolio-item-meta">
-                                    <h5>Baby Girl</h5>
-                                 <p>Pencil Sketch</p>
-                                 </div>
-                           </div>
-                           <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-   
-                     </div>
-               </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                     <div class="item-wrap">
-   
-                        <a href="#modal-a-02" title="">
-                           <img alt="" src="images/portfolio/Hope.jpg">
-                           <div class="overlay">
-                              <div class="portfolio-item-meta">
-                                    <h5>Hope</h5>
-                                 <p>Pencil Sketch</p>
-                                 </div>
-                           </div>
-                           <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-   
-                     </div>
-               </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                     <div class="item-wrap">
-   
-                        <a href="#modal-a-03" title="">
-                           <img alt="" src="images/portfolio/sad_lady.jpg">
-                           <div class="overlay">
-                              <div class="portfolio-item-meta">
-                                    <h5>Sad Lady</h5>
-                                 <p>Pencil Sketch</p>
-                                 </div>
-                           </div>
-                           <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-   
-                     </div>
-               </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                     <div class="item-wrap">
-   
-                        <a href="#modal-a-04" title="">
-                           <img alt="" src="images/portfolio/coffeetime.jpg">
-                           <div class="overlay">
-                              <div class="portfolio-item-meta">
-                                    <h5>Coffee Time</h5>
-                                 <p>Pencil Sketch</p>
-                                 </div>
-                           </div>
-                           <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-   
-                     </div>
-               </div> <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid lazy" src="images/portfolio/modals/axatools.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>AxaTools</h4>
-			      <p>A helper program incorporating several basic utilities/tools.A helper program incorporating several basic utilities/tools. <br/>Tools included: Unit Converter, Character Counter, BMI Calculator, Base 64 Encode/Decoder, XML-JSON Converter, Regex Tester, MD2 &amp; MD5 Hash, QR Code Generator</p>
-               <span class="categories"><i class="fa fa-tag"></i>Chrome Extension, Utility</span>
-		      </div>
-
-            <div class="link-box">
-               <a target="_blank" href="https://chrome.google.com/webstore/detail/axatools/eenifdohopomchehodgolennolajhlnd">Link </a>
-               <a class="popup-modal-dismiss" target="_blank" href="http://github.com/amalbose/AxaTools">Github</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid lazy" src="images/portfolio/modals/xkcdenhancer.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>XKCD Enhancer</h4>
-			      <p>Enhances xkcd website experience with direct access to Explain XKCD and alt text.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Chrome Extension</span>
-		      </div>
-
-            <div class="link-box">
-                  <a target="_blank" href="https://chrome.google.com/webstore/detail/xkcd-enchancer/cmaebofjopmcalpjoafdfpjginapkdij">Link </a>
-                  <a class="popup-modal-dismiss" target="_blank" href="http://github.com/amalbose/xkcd-enhancer">Github</a>
-                  <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid lazy" src="images/portfolio/modals/toddlertalk.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Toddler Talk - Kids Learning App</h4>
-			      <p>With over 8 categories, Toddler Talk is designed to help your toddler learn the words of common alphabets, numbers, shapes, animals etc.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Android Application</span>
-		      </div>
-
-            <div class="link-box">
-               <a target="_blank" href="https://play.google.com/store/apps/details?id=com.amalbose.toddlertalk">Link </a>
-               <a class="popup-modal-dismiss" target="_blank" href="https://github.com/amalbose/kids-learning-app">Github</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid lazy" src="images/portfolio/modals/bmicalculator.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>BMI Calculator</h4>
-			      <p>Track you health with BMI Calculator which supports both metric and imperial units.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Android Application, React Native</span>
-		      </div>
-
-            <div class="link-box">
-                  <a target="_blank" href="https://play.google.com/store/apps/details?id=com.amalbose.bmicalculator">Link</a>
-                  <a class="popup-modal-dismiss" target="_blank" href="https://github.com/amalbose/BMICalculator">Github</a>
-                  <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-a-01" class="popup-modal mfp-hide">
-
-               <img class="scale-with-grid lazy" src="images/portfolio/Baby_Girl.jpg" data-src="images/portfolio/modals/Baby_Girl.jpg" alt="" />
-   
-            </div><!-- modal-a-01 End -->
-
-            <div id="modal-a-02" class="popup-modal mfp-hide">
-
-                  <img class="scale-with-grid lazy" src="images/portfolio/Hope.jpg" data-src="images/portfolio/modals/Hope.jpg" alt="" />
-      
-               </div><!-- modal-a-01 End -->
-
-               <div id="modal-a-03" class="popup-modal mfp-hide">
-
-                     <img class="scale-with-grid lazy" src="images/portfolio/sad_lady.jpg" data-src="images/portfolio/modals/sad_lady.jpg" alt="" />
-         
-               </div><!-- modal-a-01 End -->
-
-               <div id="modal-a-04" class="popup-modal mfp-hide">
-
-                     <img class="scale-with-grid lazy" src="images/portfolio/coffeetime.jpg" data-src="images/portfolio/modals/coffeetime.jpg" alt="" />
-         
-                  </div><!-- modal-a-01 End -->
-
-                  
-               <div id="modal-a-05" class="popup-modal mfp-hide">
-
-                     <img class="scale-with-grid lazy" src="images/portfolio/sunset.jpg" data-src="images/portfolio/modals/sunset.jpg" alt="" />
-         
-                  </div><!-- modal-a-01 End -->
-
-               <div id="modal-a-06" class="popup-modal mfp-hide">
-
-                  <img class="scale-with-grid lazy" src="images/portfolio/mountainside.jpg" data-src="images/portfolio/modals/mountainside.jpg" alt="" />
-      
-               </div><!-- modal-a-01 End -->
-
-            <div id="modal-a-07" class="popup-modal mfp-hide">
-
-               <img class="scale-with-grid lazy" src="images/portfolio/buddha.jpg" data-src="images/portfolio/modals/buddha.jpg" alt="" />
-   
-            </div><!-- modal-a-01 End -->
-
-            <div id="modal-a-08" class="popup-modal mfp-hide">
-
-                  <img class="scale-with-grid lazy" src="images/portfolio/oldcouple.jpg" data-src="images/portfolio/modals/oldcouple.jpg" alt="" />
-      
-               </div><!-- modal-a-01 End -->
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">If you wish to contact me, please use this <a href="https://forms.gle/MPZoSLQa6ibAYCgw5" target="_blank">Google form</a>, or use any of the below social media platforms.
-                  </p>
-
-            </div>
-
-         </div>
-
-         
-
-   </section> <!-- Contact Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://www.facebook.com/amalbose"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="http://twitter.com/amalbose"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://in.linkedin.com/in/amalbose"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/amalbose/"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2019 Amal Bose</li>
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/yall.min.js"></script>
-   <script src="js/init.js"></script>
 </body>
 
 </html>
